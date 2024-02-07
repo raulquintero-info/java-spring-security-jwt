@@ -1,14 +1,17 @@
-package dtos;
+package cl.javadevs.springsecurityjwt.dtos;
 
-public class DtoRegistro {
+public class DtoLogin {
+
 	private String username;
 	private String password;
 	
 	
-	public DtoRegistro() {
+	
+	
+	public DtoLogin() {
 		super();
 	}
-	public DtoRegistro(String username, String password) {
+	public DtoLogin(String username, String password) {
 		super();
 		this.username = username;
 		this.password = password;

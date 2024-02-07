@@ -1,4 +1,4 @@
-package dtos;
+package cl.javadevs.springsecurityjwt.dtos;
 // esta clase va a ser la que nos devolvera la informacion con el token y el tipo dque tenga este 
 public class DtoAuthRespuesta {
 	private String accessToken;
@@ -10,9 +10,7 @@ public class DtoAuthRespuesta {
 
 	
 	
-	public String getAccessToken() {
-		return accessToken;
-	}
+	
 
 	public DtoAuthRespuesta() {
 		super();
@@ -27,7 +25,9 @@ public class DtoAuthRespuesta {
 	}
 
 
-
+	public String getAccessToken() {
+		return accessToken;
+	}
 	public void setAccessToken(String accessToken) {
 		this.accessToken = accessToken;
 	}
